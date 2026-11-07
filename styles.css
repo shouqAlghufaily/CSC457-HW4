@@ -1,0 +1,138 @@
+/* General page style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #263446;
+    background-color: #f4f6fb;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #29466b;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px #17283e;
+    margin: 0 0 1rem;
+}
+
+nav {
+    background-color: #1b304d;
+    padding: 0.8rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 0.8rem;
+}
+
+nav a:hover {
+    background-color: #47658b;
+}
+
+/* Main content */
+main {
+    width: 85%;
+    max-width: 55rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #d8e0eb;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #29466b;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Reusable class and unique ID */
+.highlight {
+    background-color: #edf3fc;
+    border-left: 4px solid #6086b2;
+    padding: 1rem;
+}
+
+#intro {
+    font-style: italic;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+dl {
+    margin: 1rem 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 0.8rem;
+}
+
+/* Sections and projects */
+section, article {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid #d8e0eb;
+}
+
+blockquote {
+    background-color: #edf3fc;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Links and footer */
+a {
+    color: #285a92;
+}
+
+footer {
+    background-color: #29466b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
